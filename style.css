@@ -1,3 +1,8 @@
+
+
+
+
+
 .input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -8,70 +13,12 @@
 input[type=text]:focus {
     width: 100%;
 }
-body {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-  background-color: cyan;
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
-}
-.navbar-static-top
-{
-  max-width: 100%;
-  position: fixed;
-  width: 100%;
-}
-p
-{
-  max-width: 100%;
-}
-#bg {
-  max-width: 100%;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-}
-p{
-  max-width: 100%;
-  padding: 40px;
-  font-size: 450%;
-  text-align: center;
-  color: black;
-  float: center;
-}
-h1 {
-  float: left;
-  font-size: 300%;
-  text-align: left;
-  color: white;
-  background-color:rgba(0,0,0,.6);
-  max-width: 100%;   
-}
-
 
 body {background: aliceblue;}
 body > div {
     width: 500px;
     margin: 50px auto;
     text-align: center;
-      position: fixed; 
-  top: 0; 
-  left: 0; 
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
 }
 
 h1{
@@ -166,91 +113,39 @@ input[value="6"]:checked ~ .container .carousel li:nth-child(6) img { -webkit-tr
 input[value="7"]:checked ~ .container .carousel li:nth-child(7) img { -webkit-transform: rotateY(270deg) translateZ(540px) scale(1); opacity: 1; }
 input[value="8"]:checked ~ .container .carousel li:nth-child(8) img { -webkit-transform: rotateY(315deg) translateZ(540px) scale(1); opacity: 1; }
 
+/* css for main.html */
+
 body {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;  
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
+    background: url(backk.jpg);
+    background-repeat: no-repeat;
 }
-.navbar-static-top
-{
-  max-width: 100%;
-  position: fixed;
-  width: 100%;
+
+#page1 {
+    height: 900px;
+    width: 900px;
 }
-p
-{
-  max-width: 100%;
+
+#page2 {
+    color: gray;
 }
-#bg {
-  max-width: 100%;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+
+#page3 {
+    color: gray;
 }
-p{
-  max-width: 100%;
-  padding: 40px;
-  font-size: 450%;
-  text-align: center;
-  color: black;
-  float: center;
-}
-h1 {
-  float: left;
-  font-size: 300%;
-  text-align: left;
-  color: white;
-  background-color:rgba(0,0,0,.6);
-  max-width: 100%;   
-}
-.col-xs-10{
-  color: white;
-  max-width: 100%;
-}
-.col-xs-2{
-  max-width: 100%;
-  font-size: 90%;
-  text-align: left;
-  color: black;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.list-group-item{
-  border:0;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  float: 30px;
-  max-width: 100%;
-}
-@media screen and (max-width: 460px) {
-  p{
-  font-size: 250%;
-  width: 100%;
-}
-h1{
-  font-size: 165%;
-  width: 100%;
-}
-.listed-group-item{
-  width: 100%;
-}
-.row{
-  width: 100%;
-}
-.col-xs-10{
-  width: 100%;
-}
-.col-xs-2{
-  width: 100%;
-}
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  .navbar-nav { 
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+    }
+  }
 }
