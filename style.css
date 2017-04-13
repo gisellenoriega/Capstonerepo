@@ -116,8 +116,10 @@ input[value="8"]:checked ~ .container .carousel li:nth-child(8) img { -webkit-tr
 /* css for main.html */
 
 body {
-    background: url(backk.jpg);
+    background: url(back2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+ 
 }
 
 #page1 {
