@@ -71,10 +71,6 @@ label {
     font: .9em Arial;
 }
 
-label:hover {
-    background: cadetblue;
-}
-
 input {
     position: absolute;
     left: -9999px;
