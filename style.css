@@ -113,11 +113,11 @@ body {
 }
 
 #page2 {
-    color: gray;
+    
 }
 
 #page3 {
-    color: gray;
+    
 }
 
 #navbar-primary.navbar-default {
@@ -137,9 +137,6 @@ body {
   }
 }
 
-body { 
-  font: 14px/2 Georgia, serif; 
-}
 
 #page-wrap { 
   max-width: 500px; 
